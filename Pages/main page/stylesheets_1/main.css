@@ -2,44 +2,88 @@ body {
     overflow: hidden;
 }
 
-.back {
+.main {
     width: 100%;
     position: absolute;
     display: flex;
     justify-content: space-between;
 }
-
-.back0 {
+.back {
     width: 100%;
+    position: absolute;
+}
+.back0 {
+    position: absolute;
+    margin-top: -13%;
+    width: 100%;
+    z-index: -1000;
+    animation: gradient_anim 10s ease-in-out infinite;
+}
+
+a{
+    color: black;
+    text-decoration: none;;
 }
 
 .navbar {
     position: absolute;
     overflow: hidden;
     background-color: white;
-    text-align: right;
-    width: 50%;
-    height: 46px;
-    z-index: 1000;
+    opacity: 0.5;
+    width: 40%;
+    height: 7%;
+    z-index: 1;
     right: 0;
+    margin-top: 0.6%;
     box-shadow: 1px 1px 8px 0.5px rgba(0, 0, 0, 0.09);
     margin-right: 3%;
 }
 
-.navbar a {
-    float: left;
+.menu {
+    position: absolute;
+    z-index: 2;
+    word-spacing: 2vw;
     display: inline-block;
-    color: black;
+    font-style: color black;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    width: 40%;
+    height: 7%;
     font-size: 1.1vw;
     font-family: "Helvetica";
+    margin-top: 1.6%;
+    margin-left: 56%;
 }
 
-.navbar a:hover {
-    background-color: #D5DF7C;
-    color: black;
+.profile {
+    margin-left: 25%;
+}
+
+.sectionnone {
+    display: none;
+}
+
+.sectionblock {
+    display: block;
+}
+
+.hover_green {
+    position: absolute;
+    margin-left: 56.6%;
+    margin-top: 0.6%;
+    width: 12%;
+    height: 7%;
+    overflow: hidden;
+}
+
+.hover_green2 {
+    position: absolute;
+    margin-left: 23%;
+    width: 30%;
+    height: 0.2%;
+    overflow: hidden;
+    margin-top: 0.78%;
+    box-shadow: 0px 16px 8px 22px #D5DF7C;
+    z-index: 1;
 }
 
 ul {
@@ -89,7 +133,6 @@ li:last-child {
 .secondnews {
     display: block;
     margin-bottom: 2%; 
-    /* Adjust margin for better adaptation */
 }
 
 .textfirst,
@@ -98,14 +141,14 @@ li:last-child {
     justify-content: space-between;
     font-size: 1.4vw;
     width: 100%;
-    margin-top: -2%; /* Adjust margin for better adaptation */
+    margin-top: -2%; 
     align-items: center;
     width: 86%;
     font-family: "Helvetica";
-    padding-left:2%;
+    padding-left: 2%;
     box-shadow: 1px 1px 8px 0.5px rgba(0, 0, 0, 0.09);
-    
 }
-.balls{
+
+.balls {
     position: absolute;
 }
