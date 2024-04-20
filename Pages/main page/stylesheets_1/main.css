@@ -1,20 +1,14 @@
-.body{
- background-color: blue;
-}
-
-
-
 .navbar {
     overflow: hidden;
     background-color: white; 
-    opacity: 10%;
-
+    text-align: right;
+    width: 50%;
   }
   
 .navbar a {
     float: left;
-    display: block;
-    color: #f2f2f2; 
+    display: inline-block;
+    color: black; 
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
