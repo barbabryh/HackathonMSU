@@ -66,25 +66,80 @@ a{
     display: block;
 }
 
-.hover_green {
+.hover_green2{
     position: absolute;
-    margin-left: 56.6%;
+    margin-left: 23%;
+    width: 30%;
+    position: absolute;
+    height: 0.2%;
+    overflow: hidden;
+    margin-top: -1%;
+    box-shadow: 0px 16px 8px 22px #D5DF7C ;
+    z-index: 1;
+}
+
+.hover_green_teams{
+    position: absolute;
+    margin-left: 62%;
     margin-top: 0.6%;
     width: 12%;
     height: 7%;
     overflow: hidden;
 }
 
-.hover_green2 {
+.hover_green_teams2{
     position: absolute;
-    margin-left: 23%;
+    margin-left: 42%;
     width: 30%;
+    position: absolute;
     height: 0.2%;
     overflow: hidden;
-    margin-top: 0.78%;
-    box-shadow: 0px 16px 8px 22px #D5DF7C;
+    margin-top: -1%;
+    box-shadow: 0px 16px 8px 22px #D5DF7C ;
     z-index: 1;
 }
+.hover_green_other{
+    position: absolute;
+    margin-left: 68%;
+    margin-top: 0.6%;
+    width: 12%;
+    height: 7%;
+    overflow: hidden;
+}
+
+.hover_green_other2{
+    position: absolute;
+    margin-left: 47%;
+    width: 30%;
+    position: absolute;
+    height: 0.2%;
+    overflow: hidden;
+    margin-top: -1%;
+    box-shadow: 0px 16px 8px 22px #D5DF7C ;
+    z-index: 1;
+}
+.hover_green_profile{
+    position: absolute;
+    margin-left: 86%;
+    margin-top: 0.6%;
+    width: 12%;
+    height: 7%;
+    overflow: hidden;
+}
+
+.hover_green_profile2{
+    position: absolute;
+    margin-left: 31%;
+    width: 30%;
+    position: absolute;
+    height: 0.2%;
+    overflow: hidden;
+    margin-top: -1%;
+    box-shadow: 0px 16px 8px 22px #D5DF7C ;
+    z-index: 1;
+}
+
+
 
 ul {
     list-style-type: none;
@@ -129,14 +184,12 @@ li:last-child {
     padding-top: 8%; /* Adjust padding for better adaptation */
 }
 
-.firstnews,
-.secondnews {
+.firstnews {
     display: block;
     margin-bottom: 2%; 
 }
 
-.textfirst,
-.textsecond {
+.textfirst {
     display: flex;
     justify-content: space-between;
     font-size: 1.4vw;
@@ -148,7 +201,10 @@ li:last-child {
     padding-left: 2%;
     box-shadow: 1px 1px 8px 0.5px rgba(0, 0, 0, 0.09);
 }
-
+.beg {
+    width: 100%;
+    padding-left: 2%;
+}
 .balls {
     position: absolute;
 }

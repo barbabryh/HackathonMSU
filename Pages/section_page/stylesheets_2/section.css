@@ -21,7 +21,7 @@ a{
     position: absolute;
     margin-top: -13%;
     width: 100%;
-    z-index: 0;
+    z-index: -1000;
     animation: gradient_anim 10s ease-in-out infinite;
 }
 
