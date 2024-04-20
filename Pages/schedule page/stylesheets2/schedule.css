@@ -68,18 +68,22 @@ a{
 
 .hover_green{
     position: absolute;
-    margin-left: 57%;
-    width: 6.8%;
+    margin-left: 56.6%;
     margin-top: 0.6%;
-    box-shadow: 5px 5px 5px 5px;
-    
+    width: 12%;
+    height: 7%;
+    overflow: hidden;
 }
 
 .hover_green2{
     position: absolute;
-    margin-left: 0%;
-    width: 100%;
-    
-    
+    margin-left: 23%;
+    width: 30%;
+    position: absolute;
+    height: 0.2%;
+    overflow: hidden;
+    margin-top: 0.78%;
+    box-shadow: 0px 16px 8px 22px #D5DF7C ;
+    z-index: 1;
 }
 
