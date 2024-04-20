@@ -3,9 +3,17 @@ body{
 }
 
 .back{
+    position: absolute;
     width: 100%;
 }
 
 .back0{
     width: 100%;
+}
+
+.welcome0{
+  position: absolute;
+  z-index: 3;
+  font-size: 3vw;
+  
 }
