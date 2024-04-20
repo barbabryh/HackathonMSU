@@ -2,18 +2,65 @@ body{
     overflow: hidden;
 }
 
+h1{
+    font-family: Helvetica;
+}
+
 .back{
-    position: absolute;
+    position: relative;
     width: 100%;
+
 }
 
 .back0{
+    position: absolute;
+    margin-top: -10%;
     width: 100%;
+    z-index: 0;
 }
 
 .welcome0{
   position: absolute;
-  z-index: 3;
-  font-size: 3vw;
-  
+  z-index: 10;
+  font-size: 4.5vw;
+  text-align: center;
+  margin-top: 16%;
+  margin-left: 31%;
+
+}
+
+.sport_decoration{
+    position: relative;
+    width: 100%;
+}
+
+.basket1{
+    position: absolute;
+    margin-top: -130%;
+    margin-left: -195%;
+    width: 120%;
+    rotate: -120deg;
+}
+
+.basket2{
+    position: absolute;
+    width: 50%;
+    margin-top: -75%;
+    margin-left: 56%;
+}
+
+.volley1{
+    position: absolute;
+    width: 120%;
+    rotate: -120deg;
+    margin-left: 66%;
+    margin-top: -10%;
+}
+
+.volley2{
+    position: absolute;
+    width: 45%;
+    margin-left: -110%;
+    margin-top: -2%;
+    
 }

@@ -2,6 +2,10 @@ body {
     overflow: hidden;
 }
 
+h1,p,a{
+    font-family: "Helvetica";
+}
+
 .back {
     width: 100%;
     position: absolute;
@@ -20,7 +24,7 @@ body {
     height: 46px;
     z-index: 1000;
     right: 0;
-    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 8px 0.5px rgba(0, 0, 0, 0.09);
     margin-right: 3%;
 
 
@@ -33,10 +37,11 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.5vw;
 }
 
 .navbar a:hover {
     background-color: #D5DF7C;
+    
     color: black;
 }
