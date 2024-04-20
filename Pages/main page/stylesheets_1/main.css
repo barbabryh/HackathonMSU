@@ -1,27 +1,45 @@
-.body{
-    background-image: url(../img/gradient.svg);
-    z-index:1000;
+body {
+    overflow: hidden;
+}
+
+.back {
+    width: 100%;
+    position: absolute;
+}
+
+.back0 {
+    width: 100%;
 }
 
 .navbar {
+    position: absolute;
     overflow: hidden;
-    background-color: white; 
+    background-color: white;
     text-align: right;
     width: 50%;
     height: 46px;
-  }
-  
+    z-index: 1000;
+    right: 0;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+    margin-right: 3%;
+
+
+}
+
 .navbar a {
     float: left;
     display: inline-block;
-    color: black; 
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    size: 16px;
-  }
-  
+    font-size: 16px;
+}
+
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: #D5DF7C;
     color: black;
-  }
+}
+.navbar a:profile {
+    border-spacing: 20px;
+}
