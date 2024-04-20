@@ -87,6 +87,27 @@ a{
     z-index: 1;
 }
 
+.hover_green_{
+    position: absolute;
+    margin-left: 56.6%;
+    margin-top: 0.6%;
+    width: 12%;
+    height: 7%;
+    overflow: hidden;
+}
+
+.hover_green2_{
+    position: absolute;
+    margin-left: 23%;
+    width: 30%;
+    position: absolute;
+    height: 0.2%;
+    overflow: hidden;
+    margin-top: -1%;
+    box-shadow: 0px 16px 8px 22px #D5DF7C ;
+    z-index: 1;
+}
+
 .hover_green_teams{
     position: absolute;
     margin-left: 62%;
@@ -97,6 +118,27 @@ a{
 }
 
 .hover_green_teams2{
+    position: absolute;
+    margin-left: 42%;
+    width: 30%;
+    position: absolute;
+    height: 0.2%;
+    overflow: hidden;
+    margin-top: -1%;
+    box-shadow: 0px 16px 8px 22px #D5DF7C ;
+    z-index: 1;
+}
+
+.hover_green_teams_{
+    position: absolute;
+    margin-left: 62%;
+    margin-top: 0.6%;
+    width: 12%;
+    height: 7%;
+    overflow: hidden;
+}
+
+.hover_green_teams2_{
     position: absolute;
     margin-left: 42%;
     width: 30%;
@@ -127,6 +169,28 @@ a{
     box-shadow: 0px 16px 8px 22px #D5DF7C ;
     z-index: 1;
 }
+
+.hover_green_other_{
+    position: absolute;
+    margin-left: 68%;
+    margin-top: 0.6%;
+    width: 12%;
+    height: 7%;
+    overflow: hidden;
+}
+
+.hover_green_other2_{
+    position: absolute;
+    margin-left: 47%;
+    width: 30%;
+    position: absolute;
+    height: 0.2%;
+    overflow: hidden;
+    margin-top: -1%;
+    box-shadow: 0px 16px 8px 22px #D5DF7C ;
+    z-index: 1;
+}
+
 .hover_green_profile{
     position: absolute;
     margin-left: 86%;
@@ -137,6 +201,27 @@ a{
 }
 
 .hover_green_profile2{
+    position: absolute;
+    margin-left: 31%;
+    width: 30%;
+    position: absolute;
+    height: 0.2%;
+    overflow: hidden;
+    margin-top: -1%;
+    box-shadow: 0px 16px 8px 22px #D5DF7C ;
+    z-index: 1;
+}
+
+.hover_green_profile_{
+    position: absolute;
+    margin-left: 86%;
+    margin-top: 0.6%;
+    width: 12%;
+    height: 7%;
+    overflow: hidden;
+}
+
+.hover_green_profile2_{
     position: absolute;
     margin-left: 31%;
     width: 30%;
