@@ -7,7 +7,7 @@ $(document).ready(function(){
         $(".hover_green_profile_").removeClass('sectionblock').addClass("sectionnone");
     });
 
-    $(".hover_green_team_").addClass("sectionnone");
+    $(".hover_green_teams_").addClass("sectionnone");
     $("#teams").click(function(){
         $(".hover_green_teams_").addClass("sectionblock");
         $(".hover_green_").removeClass('sectionblock').addClass("sectionnone");
@@ -61,5 +61,9 @@ $("#profile").on('mouseenter', function(){
     $(".hover_green_profile").removeClass('sectionblock').addClass("sectionnone");
  });
 });
+
+$('.sign_in_button').click(function(){
+    window.location.href='/Pages/profile_page/profile.html';
+ })
   
 });
