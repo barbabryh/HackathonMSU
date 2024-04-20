@@ -7,7 +7,6 @@ body {
     position: absolute;
     display: flex;
     justify-content: space-between;
-
 }
 
 .back0 {
@@ -25,8 +24,6 @@ body {
     right: 0;
     box-shadow: 1px 1px 8px 0.5px rgba(0, 0, 0, 0.09);
     margin-right: 3%;
-
-
 }
 
 .navbar a {
@@ -42,56 +39,73 @@ body {
 
 .navbar a:hover {
     background-color: #D5DF7C;
-    
     color: black;
 }
 
 ul {
-    list-style-type: none; 
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
+}
 
-  }
-  
-  li {
-    margin-right: 16px; 
-  }
-  
-  li:last-child {
-    margin-right: 0; 
-  }
-  
+li {
+    margin-right: 1vw; /* Adjust margin for better adaptation */
+}
 
- .leftContainer{
+li:last-child {
+    margin-right: 0;
+}
+
+.leftContainer {
     padding-left: 2vw;
-    width: 50%;
-    padding-top:10%;
- }
-.leftContainer h1{
+    width: 45%;
+    padding-top: 2%;
+}
+
+.leftContainer h1 {
     font-size: 7vw;
     font-family: "Helvetica";
     margin-bottom: 1%;
 }
 
-.leftContainer p{
+.leftContainer p {
     font-family: "Helvetica";
     font-size: 1.4vw;
 }
 
-.opisanieLinks{
+.opisanieLinks {
     margin-left: 0.5vw;
+    width: 80%;
+}
 
+.rightContainer {
+    width: 55%;
+    padding-top: 8%; /* Adjust padding for better adaptation */
+}
 
-}
-.rightContainer{
-    width:50%;
-    padding-top:10%;
-}
-.firstnews{
+.firstnews,
+.secondnews {
     display: block;
+    margin-bottom: 2%; 
+    /* Adjust margin for better adaptation */
 }
-.secondnews{
-    display: block;
+
+.textfirst,
+.textsecond {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4vw;
+    width: 100%;
+    margin-top: -2%; /* Adjust margin for better adaptation */
+    align-items: center;
+    width: 86%;
+    font-family: "Helvetica";
+    padding-left:2%;
+    box-shadow: 1px 1px 8px 0.5px rgba(0, 0, 0, 0.09);
+    
+}
+.balls{
+    position: absolute;
 }
