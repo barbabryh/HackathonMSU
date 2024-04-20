@@ -181,9 +181,8 @@ li:last-child {
 
 .rightContainer {
     width: 55%;
-    padding-top: 8%; /* Adjust padding for better adaptation */
+    padding-top: 8%; 
 }
-
 .firstnews {
     display: block;
     margin-bottom: 2%; 
@@ -193,7 +192,6 @@ li:last-child {
     display: flex;
     justify-content: space-between;
     font-size: 1.4vw;
-    width: 100%;
     margin-top: -2%; 
     align-items: center;
     width: 86%;
@@ -202,7 +200,7 @@ li:last-child {
     box-shadow: 1px 1px 8px 0.5px rgba(0, 0, 0, 0.09);
 }
 .beg {
-    width: 100%;
+    width: 86%;
     padding-left: 2%;
 }
 .balls {
